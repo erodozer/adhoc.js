@@ -1,0 +1,38 @@
+{
+  "name": "adhoc.js",
+  "private": true,
+  "version": "1.0.0",
+  "description": "PSP ad-hoc server",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "lint": "npx eslint --fix server.js src",
+    "run": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erodozer/adhoc.js.git"
+  },
+  "keywords": [
+    "psp",
+    "adhoc",
+    "server"
+  ],
+  "author": "erodozer",
+  "license": "MIT",
+  "homepage": "https://github.com/erodozer/adhoc.js#readme",
+  "dependencies": {
+    "alasql": "^4.1.8",
+    "express": "^4.18.2",
+    "ip-to-int": "^0.3.1",
+    "lodash-es": "^4.17.21",
+    "restructure": "^3.0.0",
+    "rxjs": "^7.8.1",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.49.0",
+    "eslint-config-standard": "^17.1.0"
+  }
+}
